@@ -1,6 +1,23 @@
+html {
+    background-color: gray;
+}
+
 body {
     width: 200vh;
     height: 200vh;
+    background-color: orange;
+}
+
+header {
+    background-color: yellow;
+}
+
+main {
+    background-color: green;
+}
+
+section {
+    background-color: yellow;
 }
 
 h1 {
@@ -17,6 +34,7 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: blue;
 }
 
 /* Conteneur principal qui aligne les éléments sur une ligne : aligné depuis le haut, avec le même espace entre chaque élément */
@@ -32,4 +50,4 @@ h1 {
 /* Style pour que chaque élément rempli l'espace de manière = à l'intérieur du conteneur */
 .element {
     flex: 1; 
-}
+}   

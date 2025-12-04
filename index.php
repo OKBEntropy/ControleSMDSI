@@ -33,16 +33,26 @@
                 </div>
             </div>
         </section>
-
-
         <section id="Contact">
-            <h2> Contactez-moi </h2>
-
+            <h2>Contactez-moi</h2>
+            <form id="contactForm" action="#" method="post" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Nom :</label>
+                    <input type="text" id="name" name="name" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email :</label>
+                    <input type="email" id="email" name="email" required class="form-control">
+                </div>
+                <button type="submit" class="btn-submit">Valider</button>
+                <div id="message" class="message"></div>
+            </form>
         </section>
     </main>
     <footer>
 
     </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
