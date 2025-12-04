@@ -33,10 +33,3 @@ h1 {
 .element {
     flex: 1; 
 }
-
-/* Style spécifique pour les paragraphes (+espace supplémentaire) */
-.element p {
-    margin: 0; 
-    text-align: center; 
-    padding: 10px; 
-}
