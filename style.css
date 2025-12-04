@@ -20,6 +20,10 @@ section {
     background-color: yellow;
 }
 
+form {
+    background-color: palevioletred;
+}
+
 h1 {
     text-align: center;
 }
@@ -34,7 +38,7 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: blue;
+    background-color: rgb(110, 110, 189);
 }
 
 /* Conteneur principal qui aligne les éléments sur une ligne : aligné depuis le haut, avec le même espace entre chaque élément */
@@ -51,3 +55,13 @@ h1 {
 .element {
     flex: 1; 
 }
+
+footer {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+    background-color: pink;
+}
+

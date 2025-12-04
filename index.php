@@ -50,8 +50,20 @@
         </section>
     </main>
     <footer>
-
+        <p class="footer-text">Page web faite par <?php echo htmlspecialchars($_SESSION['dernier_prenom'] ?? 'Inconnu'); ?></p>
     </footer>
+
+    <!-- Tentative d'affichage du nom non fonctionnelle -->
+    <?php if (isset($_SESSION['message'])): ?>
+        <div id="message" class="message <?php echo $_SESSION['message_type']; ?>">
+            <?php
+            echo htmlspecialchars($_SESSION['message']);
+            unset($_SESSION['message']);
+            unset($_SESSION['message_type']);
+            ?>
+        </div>
+    <?php endif; ?>
+
     <script src="script.js"></script>
 </body>
 
