@@ -7,6 +7,7 @@ h1 {
     text-align: center;
 }
 
+/* navbar id, centrée et sans puce */
 #nav-bar {
     gap: 15px;
     margin-left: auto;
@@ -16,4 +17,26 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* Conteneur principal qui aligne les éléments sur une ligne : aligné depuis le haut, avec le même espace entre chaque élément */
+.conteneur {
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start; 
+    gap: 20px; 
+    margin-top: 30px;
+    width: 100%; 
+}
+
+/* Style pour que chaque élément rempli l'espace de manière = à l'intérieur du conteneur */
+.element {
+    flex: 1; 
+}
+
+/* Style spécifique pour les paragraphes (+espace supplémentaire) */
+.element p {
+    margin: 0; 
+    text-align: center; 
+    padding: 10px; 
 }
