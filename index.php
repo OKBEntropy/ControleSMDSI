@@ -35,10 +35,10 @@
         </section>
         <section id="Contact">
             <h2>Contactez-moi</h2>
-            <form id="contactForm" action="#" method="post" class="contact-form">
+            <form id="contactForm" action="save.php" method="post" class="contact-form">
                 <div class="form-group">
-                    <label for="name">Nom :</label>
-                    <input type="text" id="name" name="name" class="form-control">
+                    <label for="nom">Nom :</label>
+                    <input type="text" id="nom" name="nom" class="form-control" required>
                 </div>
                 <div class="form-group">
                     <label for="email">Email :</label>

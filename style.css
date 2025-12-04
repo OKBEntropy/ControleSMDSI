@@ -50,4 +50,4 @@ h1 {
 /* Style pour que chaque élément rempli l'espace de manière = à l'intérieur du conteneur */
 .element {
     flex: 1; 
-}   
+}

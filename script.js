@@ -8,9 +8,6 @@ document.addEventListener('DOMContentLoaded', function() {
         const name = document.getElementById('name').value.trim();
         const email = document.getElementById('email').value.trim();
         
-        // Valider l'email
-        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-        
         if (!email || !emailRegex.test(email)) {
             // Affiche le message d'erreur
             messageDiv.textContent = 'Vos informations ne sont pas correctes';
