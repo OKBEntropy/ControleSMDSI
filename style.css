@@ -1,12 +1,19 @@
 body {
+    width: 200vh;
     height: 200vh;
 }
 
+h1 {
+    text-align: center;
+}
+
 #nav-bar {
-    display: flex;
     gap: 15px;
-    justify-content: flex-end;
-    align-items: center;
-    position: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
     list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

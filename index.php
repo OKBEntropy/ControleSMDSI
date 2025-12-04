@@ -19,12 +19,14 @@
         </nav>
     </header>
     <main>
-        <section1>
+        <section id="Accueil">
+            <h2> Accueil </h2>
 
-        </section1>
-        <section2>
+        </section>
+        <section id="Contact">
+            <h2> Contactez-moi </h2>
 
-        </section2>
+        </section>
     </main>
     <footer>
 
